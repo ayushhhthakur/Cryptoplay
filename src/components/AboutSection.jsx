@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from "styled-components";
-import { useGlobalContext } from "../context";
 import react from '../assets/tech/react-logo.png'
 import solidity from '../assets/tech/solidity-logo.png'
 import tezos from '../assets/tech/tezos-logo.png'
@@ -9,7 +8,6 @@ import nodejs from '../assets/tech/nodejs-logo.png'
 
 
 const AboutSection = () => {
-    const { name, image } = useGlobalContext();
     return (
         <Wrapper>
             <div className="about">

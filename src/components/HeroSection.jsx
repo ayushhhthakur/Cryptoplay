@@ -13,7 +13,9 @@ const HeroSection = () => {
         <div className="section-hero-data">
           {/* <p className="hero-top-data">Welcome To</p> */}
           <h1 className="hero-heading">{name}</h1>
-          <p className="hero-para">{content}</p>
+          <p className="hero-para">
+        Crypto play is a game where users can create there fantasy teams and win rewards. The game is built on Tezos blockchain technology which make it even more safe and secure than other platforms.
+          </p>
 
           <Button className="btn hireme-btn">
             <NavLink to="/contact"> Play Now </NavLink>

@@ -4,6 +4,16 @@ import styled from "styled-components";
 const Contact = () => {
   const Wrapper = styled.section`
     padding: 9rem 0 5rem 0;
+    
+    .section-top {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .section-top h1 {
+      color: black;
+      font-size: 36px;
+    }
 
     .container {
       margin-top: 6rem;
@@ -36,10 +46,11 @@ const Contact = () => {
 
   return (
     <Wrapper>
-      <h2 className="common-heading">Feel Free to Contact us</h2>
-
+      <div className="section-top">
+        <h1>Contact <span>Us</span></h1>
+      </div>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15126.28620995241!2d73.92422475000001!3d18.59334505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c14df5c70e0d%3A0x2d19689e09e2fced!2sPhoenix%20Mall%20Washrooms!5e0!3m2!1sen!2sin!4v1658905192255!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.220423324957!2d74.81684297418667!3d32.812924132152794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e87ad2533b009%3A0x77069456c55e9f86!2sModel%20Institute%20of%20Engineering%20and%20Technology%20(MIET)%2C%20Jammu!5e0!3m2!1sen!2sin!4v1691872861265!5m2!1sen!2sin"
         width="100%"
         height="450"
         style={{ border: 0 }}

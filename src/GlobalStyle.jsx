@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
 *{
   margin: 0;
   padding: 0;
@@ -8,12 +10,18 @@ export const GlobalStyle = createGlobalStyle`
   font-family: 'Work Sans', sans-serif;
  }
 html {
+  font-family: 'Montserrat', sans-serif;
   font-size: 62.5%;
   scroll-behavior: smooth;
   /* 1rem = 10px */
   overflow-x: hidden;
 }
 
+
+span {
+  font-size: 36px;
+  color: #5469D4;
+}
 body {
   overflow-x: hidden;
    scrollbar-color: rgb(98 84 243);
