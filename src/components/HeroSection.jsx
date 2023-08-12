@@ -5,7 +5,7 @@ import { Button } from "../styles/Button";
 import { useGlobalContext } from "../context";
 
 const HeroSection = () => {
-  const { name, image, content } = useGlobalContext();
+  const { name, content, image } = useGlobalContext();
 
   return (
     <Wrapper>
@@ -13,12 +13,10 @@ const HeroSection = () => {
         <div className="section-hero-data">
           {/* <p className="hero-top-data">Welcome To</p> */}
           <h1 className="hero-heading">{name}</h1>
-          <p className="hero-para">
-          {content} 
-          </p>
+          <p className="hero-para">{content}</p>
 
           <Button className="btn hireme-btn">
-            <NavLink to="/contact"> hire me </NavLink>
+            <NavLink to="/contact"> Play Now </NavLink>
           </Button>
         </div>
 
