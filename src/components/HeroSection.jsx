@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="container grid grid-two-column">
         <div className="section-hero-data">
           {/* <p className="hero-top-data">Welcome To</p> */}
-          <h1 className="hero-heading">{name}</h1>
+          <h1 className="heading"><span>C</span>rypto <span>P</span>lay</h1>
           <p className="hero-para">
             {content}
           </p>
@@ -53,9 +53,9 @@ const Wrapper = styled.section`
     color: ${({ theme }) => theme.colors.helper};
   }
 
-  .hero-heading {
+  .heading {
     text-transform: uppercase;
-    font-size: 6.4rem;
+    font-size: 2.5rem;
   }
 
   .hero-para {
