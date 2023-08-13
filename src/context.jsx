@@ -32,6 +32,7 @@ const AppProvider = ({ children }) => {
       payload: {
         name: "About Crypto Play",
         image: "./images/about1.svg",
+        content: "Crypto play is a game where users can create there fantasy teams and win rewards. The game is built on Tezos blockchain technology which make it even more safe and secure than other platforms.",
       },
     });
   };

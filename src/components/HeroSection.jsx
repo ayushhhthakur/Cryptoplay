@@ -5,7 +5,7 @@ import { Button } from "../styles/Button";
 import { useGlobalContext } from "../context";
 
 const HeroSection = () => {
-  const { name, image } = useGlobalContext();
+  const { name, image, content } = useGlobalContext();
 
   return (
     <Wrapper>
@@ -14,8 +14,7 @@ const HeroSection = () => {
           {/* <p className="hero-top-data">Welcome To</p> */}
           <h1 className="hero-heading">{name}</h1>
           <p className="hero-para">
-            Crypto play is a game where users can create there fantasy teams and win rewards.
-            The game is built on Tezos blockchain technology which make it even more safe and secure than other platforms.
+            {content}
           </p>
 
           <Button className="btn hireme-btn">

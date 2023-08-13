@@ -4,6 +4,7 @@ const reducer = (state, action) => {
       ...state,
       name: action.payload.name,
       image: action.payload.image,
+      content: action.payload.content,
     };
   }
 
@@ -12,6 +13,7 @@ const reducer = (state, action) => {
       ...state,
       name: action.payload.name,
       image: action.payload.image,
+      content: action.payload.content,
     };
   }
 
