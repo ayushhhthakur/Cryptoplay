@@ -11,6 +11,7 @@ import { GlobalStyle } from "./GlobalStyle";
 import Error from "./Error";
 import GoToTop from "./components/GoToTop";
 import Login from "./Login";
+// import Signup from "./Signup";
 
 
 const App = () => {
