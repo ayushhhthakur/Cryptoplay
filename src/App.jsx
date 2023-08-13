@@ -1,3 +1,4 @@
+import React from "react";
 import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
@@ -9,6 +10,8 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./GlobalStyle";
 import Error from "./Error";
 import GoToTop from "./components/GoToTop";
+import Login from "./Login";
+
 
 const App = () => {
   const theme = {
@@ -43,6 +46,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/creators" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<Login />} />
           <Route path="*" element={<Error />} />
         </Routes>
 

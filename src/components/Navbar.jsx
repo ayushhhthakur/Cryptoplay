@@ -155,8 +155,19 @@ const Navbar = () => {
               Contact
             </NavLink>
           </li>
-        
-            {
+          <li>
+            <NavLink
+              className="navbar-link"
+              onClick={() => setOpenMenu(false)}
+              to="/login">
+              <Button>
+                Login
+              </Button>
+            </NavLink>
+
+          </li>
+
+          {/* {
               isAuthenticated && (
                 <li>
                    <p> {user.name} </p>
@@ -179,7 +190,7 @@ const Navbar = () => {
                   </Button>;
                 </li>
               )
-          }
+          } */}
 
 
         </ul>
