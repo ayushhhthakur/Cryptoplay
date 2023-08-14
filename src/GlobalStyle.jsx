@@ -17,6 +17,10 @@ html {
   overflow-x: hidden;
 }
 
+body, div, span, h1, h2, h3, h4, h5, h6, p {
+  transition: all 0.3s ease;
+}
+
 
 span {
   font-size: 36px;

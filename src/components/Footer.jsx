@@ -10,13 +10,13 @@ const Footer = () => {
       <section className="contact-short">
         <div className="grid grid-two-column">
           <div>
-            <h3>Ready to get started?</h3>
-            <h3>Talk to us today</h3>
+            <h3>Ready to Play?</h3>
+            <h3>Watch Tutorial</h3>
           </div>
 
           <div className="contact-short-btn">
-            <NavLink to="/">
-              <Button>Get Started</Button>
+            <NavLink to="/coming-soon">
+              <Button>Tutorial</Button>
             </NavLink>
           </div>
         </div>
