@@ -1,23 +1,30 @@
 import React from 'react'
 import styled from "styled-components";
 import { Button } from "./styles/Button";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Wrapper = styled.section`
 .content h1 {
   font-size: 2rem;
+  font-weight: bold;
   line-height: 30px;
   margin-top: 20px;
 }
 
 .btn-position,
 .content {
+  justify-content: center;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 .content h1 a {
   text-decoration: underline;
+}
+.content-bottom h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
 }
 `
 
@@ -33,6 +40,9 @@ const Login = () => {
         <Button>
           Connect Walet
         </Button>
+      </div>
+      <div className="content-bottom">
+        <h1>Currenty only Tezos Wallet is supported.<br />More Wallets will be added soon.<br />For more Information<br />Please Check our <Link to="/docs" style={{color: 'black', textDecoration: 'underline'}}>Documentation.</Link></h1>
       </div>
     </Wrapper>
   )
