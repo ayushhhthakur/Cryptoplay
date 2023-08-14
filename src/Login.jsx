@@ -37,9 +37,11 @@ const Login = () => {
         {/* <h1>Click <Link to="https://tezos.com/create-wallet/">Here</Link></h1> */}
       </div>
       <div className="btn-position">
-        <Button>
+        {/* <NavLink onClick> */}
+        <Button className='btn'>
           Connect Walet
         </Button>
+        {/* </NavLink> */}
       </div>
       <div className="content-bottom">
         <h1>Currenty only Tezos Wallet is supported.<br />More Wallets will be added soon.<br />For more Information<br />Please Check our <Link to="/docs" style={{color: 'black', textDecoration: 'underline'}}>Documentation.</Link></h1>
