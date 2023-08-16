@@ -32,7 +32,7 @@ const AboutSection = () => {
                     </a>
                     <div className="aboutTech">
                         <h2>The CryptoPlay</h2>
-                        <p>A Fantasy game built on tezos blockchain Technology.</p>
+                        <p>Crypto Play is a Fantasy game built on tezos blockchain Technology.</p>
                         <div className="list-box">
                             <ul>
                                 <li>Is a Decentrilized Platform</li>
