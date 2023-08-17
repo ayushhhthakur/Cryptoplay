@@ -17,24 +17,24 @@ const TheCreators = () => {
                     <a target="_blank" href="https://github.com/ayushhhthakur">
                         <img src={ayushthakur} alt="Ayush Thakur" />
                     </a>
-                    <figcaption><a target="_blank" href="https://github.com/ayushhhthakur">Ayush Thakur</a></figcaption>
+                    <figcaption><a target="_blank" href="https://github.com/ayushhhthakur">Ayush</a></figcaption>
                 </figure>
                 <figure><a target="_blank" href="">
                     <img src={eshasuri} alt="Esha Suri" />
                 </a>
-                    <figcaption><a target="_blank" href="">Esha Suri</a></figcaption>
+                    <figcaption><a target="_blank" href="">Esha</a></figcaption>
                 </figure>
                 <figure>
                     <a target="_blank" href="">
                         <img src={garimasaigal} alt="Garima Saigal" />
                     </a>
-                    <figcaption><a target="_blank" href="">Garima Saigal</a></figcaption>
+                    <figcaption><a target="_blank" href="">Garima</a></figcaption>
                 </figure>
                 <figure>
                     <a target="_blank" href="https://github.com/jamwal69">
                         <img src={manavjamwal} alt="Manav Jamwal" />
                     </a>
-                    <figcaption><a target="_blank" href="https://github.com/jamwal69">Manav Jamwal</a></figcaption>
+                    <figcaption><a target="_blank" href="https://github.com/jamwal69">Manav</a></figcaption>
                 </figure>
             </div>
             </section>
