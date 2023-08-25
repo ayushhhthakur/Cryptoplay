@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { useGlobalContext } from "./context";
-import { NavLink } from "react-router-dom";
-import { Button } from "./styles/Button";
 import TheCreators from "./components/TheCreators";
 
 const Creators = () => {
